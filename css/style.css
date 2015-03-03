@@ -30,8 +30,78 @@
 
 ul.dropdown-menu {
 	border-radius: 10px;
+
+}
+
+#menu {
+
 }
 
 #menu li {
-	font-size: 2em;
+	font-size: 2em;	
+	
+}
+
+.myactive {
+	background-color: #BBBBBB;	
+	border-radius: 10px;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {		
+	border-radius: 10px;
+}
+
+li.dropdown.open ul.dropdown-menu {
+	background: #bbbbbb;
+	overflow-x: hidden;
+}
+
+li.dropdown.open ul.dropdown-menu li a#link:active {
+	color: #262626;
+}
+
+li.dropdown.open ul.dropdown-menu li a#link:hover {
+	color: #262626;
+}
+
+
+.myactive #link {
+	color: #252525;
+} 
+
+.myactive #link:hover, #link:hover {
+	color: #f3f3f3;
+}
+
+div#navbar.navbar-collapse.collapse.in {
+	overflow-y: hidden; 
+}
+
+.btn-lg.btn-calltoaction {
+	border: solid 2px black;
+	border-radius: 10px;
+	background-color: #bbbbbb;
+	color: #262626;
+	
+}
+
+.btn-calltoaction:hover {
+	background-color: #d8d8d8;
+
+}
+
+.container .row {
+	margin-top: 60px;
+}
+
+.container .row .col-lg-8 {
+	margin-top: 140px;
+}
+
+#info {
+	margin-bottom: 60px;
+}
+
+#img-circle {
+	text-align: center;
 }
