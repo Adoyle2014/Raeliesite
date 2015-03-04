@@ -4,6 +4,7 @@
 	background-color: #292929;
 	color: #e1e3e4;
 	font-family: 'Raleway', sans-serif;
+	height: 100%;
 }
 
 #footer {
@@ -105,3 +106,35 @@ div#navbar.navbar-collapse.collapse.in {
 #img-circle {
 	text-align: center;
 }
+
+#mywell {
+	background: #bbbbbb;
+	color: #292929;
+}
+
+#mywell p {
+	font-size: 1.2em;
+}
+
+#myform {
+	margin-top: ;
+	padding: 200px;
+	text-align: center;
+}
+
+input {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px !important;
+}
+
+#myform h2 {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#myform p {
+	margin-top:40px;
+}
+
+

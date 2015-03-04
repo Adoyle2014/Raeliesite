@@ -10,9 +10,11 @@
     <link rel="icon" href="../../favicon.ico">
 
     <title>RAELIE Madrid Photography</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="Images/camera.png">
 
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
@@ -21,6 +23,7 @@
 
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -48,19 +51,19 @@
               <a class="navbar-brand" href="#"><img src="Images/brand.png"></a>     
               <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav" id="menu">
-                <li class="myactive"><a id="link" href="#">Home</a></li>                
+                <li class="myactive"><a id="link" href="index.html">Home</a></li>                
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" id="link" data-toggle="dropdown" role="button" aria-expanded="false">Portfolio <span class="caret"></span></a>
                   <ul class="dropdown-menu" role="menu">
                     <li class="dropdown-header">Photography</li>
-                    <li><a id="link" href="#">Events</a></li>
-                    <li><a id="link" href="#">Portraits</a></li>
-                    <li><a id="link" href="#">Landscapes</a></li>
-                    <li><a id="link" href="#">Nature</a></li>
+                    <li><a id="link" href="portfolio.html">Events</a></li>
+                    <li><a id="link" href="portfolio.html">Portraits</a></li>
+                    <li><a id="link" href="portfolio.html">Landscapes</a></li>
+                    <li><a id="link" href="portfolio.html">Nature</a></li>
                     <li class="divider"></li>
                     <li><a id="link" href="#">Videography</a></li>
                     </ul>
-                  <li><a id="link" href="#contact">Contact</a></li>
+                  <li><a id="link" href="contact.html">Contact</a></li>
                 </li>
               </ul>
             </div>
@@ -85,8 +88,8 @@
           <img src="Images/emily1.jpg">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>More stuff goes here</p>
+              <h1>Personal photography for individuals and families</h1>
+              <p>I love photographing people.  Please contact me if you’d like to set up a session.  I am affordable and quick.</p>
               <p><a class="btn btn-lg btn-calltoaction" href="#" role="button">Contact Me &raquo</a></p>
             </div>
           </div>
@@ -95,8 +98,8 @@
           <img src="Images/redflower.jpg">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <h1>Personal photography for individuals and families</h1>
+              <p>I love photographing people.  Please contact me if you’d like to set up a session.  I am affordable and quick.</p>
               <p><a class="btn btn-lg btn-calltoaction" href="#" role="button">Learn more &raquo</a></p>
             </div>
           </div>
@@ -105,8 +108,8 @@
           <img src="Images/aquarium.jpg">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <h1>Personal photography for individuals and families</h1>
+              <p>I love photographing people.  Please contact me if you’d like to set up a session.  I am affordable and quick.</p>
               <p><a class="btn btn-lg btn-calltoaction" href="#" role="button">Browse Portfolio &raquo</a></p>
             </div>
           </div>
@@ -129,18 +132,24 @@
 
     <div class="container">
 
-      <!-- Two columns of text below the carousel -->
+      <!-- One column for photo and two columns of text below the carousel 
+      if you only want the photo and one column of text, delete the third col-lg-4 div 
+      and change the class of the remaining two divs to col-lg-6-->
       <div class="row" id="info">
         <div class="col-lg-4" id="img-circle">
-          <img class="img-circle" src="Images/raeliecircle170px.png">
+          <img class="img-circle" src="Images/raeliecircle250px.png">
           </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>          
+          <div class="well well-lg" id="mywell">
+          <h2>I love photographing people.</h2>
+          <p>I am a photographer living in Saint George, UT. I'm available for photo sessions for individuals and families in the local area. Please contact me through my website if you’d like to set up a session. I am affordable and quick.</p>   
+          </div>       
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
+          <div class="well well-lg" id="mywell">
           <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>          
+          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>   
+          </div>       
         </div><!-- /.col-lg-4 -->
       </div>
         
